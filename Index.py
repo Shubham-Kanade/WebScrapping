@@ -13,7 +13,7 @@ soup = BeautifulSoup(c, "html.parser")
 
 print(soup.prettify())
 
-all = soup.select('div .infinite-item.property-card')  #"all" contains all HTML elements of the page of interest
+all = soup.select('div .infinite-item.property-card')  
 
 print(len(all))
 
@@ -32,7 +32,7 @@ for item in all:
         d["Beds"] =item.find("div", {"class": "property-beds"}).find("strong").text
     
     except:
-        #print("no beds data available")
+        
         d["Beds"] = None
     try:
         d["Baths"] =item.find("div", {"class": "property-baths"}).find("strong").text
