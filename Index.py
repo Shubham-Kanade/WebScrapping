@@ -3,9 +3,6 @@
 
 # In[4]:
 
-
-
-
 from bs4 import BeautifulSoup
 import requests
 
@@ -53,8 +50,7 @@ for item in all:
     except:
         d["Area(sq-ft)"] = None
     
-    li.append(d)  #append the dictionary to the list at the end of each iteration
-
+    li.append(d)  
 li
 
 
