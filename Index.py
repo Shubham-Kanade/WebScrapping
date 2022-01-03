@@ -2,7 +2,7 @@
 # coding: utf-8
 
 
-# In[ ]:
+# In[3]:
 
 pip install bs4 #after installing restart the kernel
 
