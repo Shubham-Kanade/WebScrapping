@@ -1,7 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+
+# In[ ]:
+
+pip install bs4 #after installing restart the kernel
+
+
 # In[4]:
+
 
 from bs4 import BeautifulSoup
 import requests
@@ -63,7 +70,6 @@ df.to_csv("Properties Report.csv")
 df
 
 
-# In[ ]:
 
 
 
