@@ -1,3 +1,6 @@
+![screen-recording(1)](https://user-images.githubusercontent.com/96579311/148106735-81406981-a6c8-4cd1-9c89-19ff61e83ca8.gif)
+
+
 # WebScrapping
 
 <h2>Code in Jupyter Notebook</h2>
